@@ -49,7 +49,7 @@ Crea una carpeta llamada "Services" dentro del proyecto "PazYSalvoAPP.Business".
 Define una interfaz de servicio para cada modelo en la carpeta "Services".
 Implementa la lógica de negocio en las clases de servicio.
 
-## Estructura de la Capa de Presentación (PazYSalvoAPP.WebApp)
+## Paso 3: Estructura de la Capa de Presentación (PazYSalvoAPP.WebApp)
 Conexión a la base de datos: Configura la conexión a la base de datos 
 **Controladores:** Crea controladores para manejar las solicitudes del usuario y coordinar las respuestas.
 **Modelos:** Define modelos específicos de la presentación si es necesario, aunque los modelos principales estarán en "PazYSalvoAPP.Models".
