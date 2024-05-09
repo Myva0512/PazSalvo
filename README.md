@@ -29,9 +29,7 @@ EntityFrameworkCore
 EntityFrameworkCore.SqlServer
 EntityFrameworkCore.Tools
 Crea una carpeta llamada "Context" en el proyecto "PazYSalvoAPP.Data" para contener el contexto de la base de datos.
-Ejecuta los siguientes comandos en la Consola del Administrador de Paquetes para generar el contexto de la base de datos:
-Scaffold-DbContext "Server=(local); DataBase=PazYSalvo; Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Context
-Scaffold-DbContext "Data Source=DESKTOP-88MTFLQ\SQLEXPRESS;Initial Catalog=PazSalvo;Integrated Security=true;Encrypt=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Context
+Ejecuta los siguientes comandos en la Consola del Administrador de Paquetes para generar el contexto de la base de datos
 
 **Referencia entre Capas**
 Enlaza los proyectos según la siguiente jerarquía:
